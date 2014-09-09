@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tomasinokaba" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Instructions"
+            android:label="@string/title_activity_instructions" >
+        </activity>
+        <activity
+            android:name=".HighScores"
+            android:label="@string/title_activity_high_scores" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".NewGame"
+            android:label="@string/title_activity_new_game" >
+        </activity>
+        <activity
+            android:name=".Game2"
+            android:label="@string/title_activity_game2" >
+        </activity>
+        <activity
+            android:name=".Game3"
+            android:label="@string/title_activity_game3" >
+        </activity>
+        <activity
+            android:name=".Game4"
+            android:label="@string/title_activity_game4" >
+        </activity>
+        <activity
+            android:name=".Game5"
+            android:label="@string/title_activity_game5" >
+        </activity>
+        <activity
+            android:name=".Score"
+            android:label="@string/title_activity_score" >
+        </activity>
+        <activity
+            android:name=".Game6"
+            android:label="@string/title_activity_game6" >
+        </activity>
+        <activity
+            android:name=".Game7"
+            android:label="@string/title_activity_game7" >
+        </activity>
+        <activity
+            android:name=".Game8"
+            android:label="@string/title_activity_game8" >
+        </activity>
+    </application>
+
+</manifest>
